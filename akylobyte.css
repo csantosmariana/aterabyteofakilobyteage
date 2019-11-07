@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-size: 5vw;  
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+/* TEXT STYLES */
+
+.s {
+    margin: 0;
+}
+
+/*HEADER*/
+
+.header {
+    margin-top: 1%;
+    margin-left: 3%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.headtitle {
+    font-family: "Helvetica";
+    letter-spacing: -.5vw;
+    width: auto;
+    height: 100%;
+    font-size: 8vw;
+    margin-top: 1%;
+    margin-left: 1%;
+    line-height: 6.75vw;
+}
+
+/* CONTAINER */
+
+.container {
+    font-family: "Helvetica";
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 2.5vw;
+    top: 0;
+    left: 0;
+}
+
+/* BUTTONS */
+
+.interrogation_button {
+    width: 15%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+.button_a {
+    width: 15%;
+    height: auto;
+    margin-left: 20%;
+}
+
+.button_i {
+    width: 15%;
+    height: auto;
+    margin-left: 75%;
+}
+
+.button_s {
+    width: 15%;
+    height: auto;
+    margin-left: 55%;
+}
+
+/* KEYWORD */
+
+.keyword1, .keyword2, .keyword3 {
+    width: 50%;
+    height: auto;   
+}
+
+.keyword1 {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.keyword2 {
+    margin-top: -10%;
+    margin-left: 60%;
+}
+
+.keyword3 {
+    margin-top: -10%;
+    margin-left: 50%;
+}

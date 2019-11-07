@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Helvetica";
+}
+
+.i {
+    font-style: italic;
+}
+
+.s {
+    margin: 0;
+}
+
+.notes {
+    font-size: 1.25vw;
+    text-transform: uppercase;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    
+}
+
+.escape_button {
+    width: 20%;
+    height: auto;
+    margin-left: 65%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.sinopse {
+    width: 100%;
+    height: 100%;
+    font-size: 2.5vw;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    
+}
